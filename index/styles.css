@@ -1,0 +1,138 @@
+ul {
+  list-style-type: none;
+  margin-right: 600px auto; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  padding: 0;
+  overflow: hidden;
+  background-color: midnightblue;
+  opacity: .75;
+  border-radius: 100px;
+  font-size: 20px;
+}
+li {
+  float: left;
+  color: black;
+}
+a {
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #000080; 
+}
+.copyright {
+  text-align: center;
+}
+body {
+  Opacity: 1;
+}
+.font {
+  font-size: 100%;
+  text-align: justify;
+}
+.test{
+ position: inline-block;
+  margin: 5px;
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  transition: all 1.5s
+}
+.test:hover {
+  transform: scale(2) rotate(360deg);  
+}
+.test2 {
+  position: inline-block;
+  margin: 4px;
+  padding:6px;
+  height: 45px;
+  width: 55px;
+  transition: all 1.5s
+} 
+.test2:hover {
+  transform: scale(2) rotate(360deg);  
+}
+.logo {
+  border-radius: 100px; 
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin: 5px;
+  padding: 0px;
+  transition: all 2s;
+}
+.logo:hover {
+  transform: scale(1) rotate(360deg); 
+}
+.pic {
+  border-radius: 150px; 
+}
+.image2 {
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+@media screen and (min-height: 50px) {
+  
+}
+.first-text {
+  font-size: 30px;
+  float: left;
+  width: 500px;
+  height: 500px;
+  position: inline-block;
+}
+.haircut1 {
+  Width: 500px;
+  height: 500px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.haricut2 {
+  width: 500px;
+  height: 30pc;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.homepage-img1 {
+  Width: 30%;
+  height: 30%;
+  position: relative;
+}
+.haircut3 {
+  width:500px;
+  height: 600px;
+  margin-top: 100px;
+  border-radius: 10px;;
+}
+.haircut4 {
+  width:500px;
+  height: 530px;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+.haircut5 {
+  Width: 500px;
+  height: 500px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.haircut6 {
+  Width: 500px;
+  height: 700px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.haircut7 {
+  max-width: 500px;
+  height: 700px auto;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+
