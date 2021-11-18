@@ -81,11 +81,7 @@ body {
   
 }
 .first-text {
-  font-size: 30px;
-  float: left;
-  width: 500px;
-  height: 500px;
-  position: inline-block;
+  font-size: 20px;
 }
 .haircut1 {
   position: inline-block;
@@ -101,9 +97,14 @@ body {
   border-radius: 10px;
 }
 .homepage-img1 {
-  Width: 30%;
-  height: 30%;
-  position: inline block;
+  Width: 25%;
+  height: 25%;
+  float: left;
+}
+.homepage-img2 {
+  Width: 25%;
+  height: 25%;
+  float: left;
 }
 .haircut3 {
   width: 600px;
@@ -122,5 +123,6 @@ body {
 .inline-block {
   position: inline block;
 }
+
 
 
