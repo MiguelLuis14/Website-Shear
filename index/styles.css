@@ -83,46 +83,40 @@ body {
 .first-text {
   font-size: 20px;
 }
-.haircut1 {
-  position: inline-block;
-  Width: 600px;
-  height: 600px;
-  margin-bottom: 0px;
-  border-radius: 10px;
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.haircut2 {
-  width: 600px;
-  height: 600px;
-  margin-top: 100px;
-  border-radius: 10px;
-}
-.homepage-img1 {
-  Width: 25%;
-  height: 25%;
-  float: left;
-}
-.homepage-img2 {
-  Width: 25%;
-  height: 25%;
-  float: left;
-}
-.haircut3 {
-  width: 600px;
-  height: 600px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  border-radius: 10px;;
-}
-.haircut4 {
+.haircut{
   position: inline block;
-  width: 600px;
-  height: 735px;
+  max-width: 600px;
   margin-top: 0px;
   border-radius: 10px;
 }
+.homepage-img1 {
+  Width: 550px;
+  height: 550px;
+  margin-bottom: 50px;
+  float: left;
+}
+.homepage-img2 {
+  Width: 560px;
+  height: 560px;
+  float: left;
+}
+
 .inline-block {
   position: inline block;
 }
-
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
 
 
