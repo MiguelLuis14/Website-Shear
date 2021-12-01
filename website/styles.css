@@ -234,5 +234,7 @@ body {
   align-content: flex-end;
 }
 
-
->>>>>>> bdf680defe2fbd0a3ed9c4658f832c6149650411:index/styles.css
+.Staff {
+height: 505px;
+width: 295px;
+}
