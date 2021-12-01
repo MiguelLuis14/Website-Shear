@@ -239,10 +239,10 @@ body {font-family: Verdana, sans-serif;}
 /* Month header */
 .month {
   padding: 70px 25px;
-  width: 100%;
+  width: 97.5%;
   background: #1abc9c;
   text-align: center;
-  border-radius: 10px;;
+  border-radius: 20px;
 }
 
 /* Month list */
@@ -256,7 +256,6 @@ body {font-family: Verdana, sans-serif;}
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  text-align: center;
 }
 
 /* Previous button inside month header */
@@ -275,7 +274,8 @@ body {font-family: Verdana, sans-serif;}
 .weekdays {
   margin: 0;
   padding: 10px 0;
-  background-color: lightgrey;
+  background-color:darkgrey;
+  border-radius: 15px;
 }
 
 .weekdays li {
@@ -283,13 +283,15 @@ body {font-family: Verdana, sans-serif;}
   width: 13.6%;
   color: grey;
   text-align: center;
+  border-radius: 10px;
 }
 
 /* Days (1-31) */
 .days {
   padding: 10px 0;
-  background:#eee;
+  background: #eee;
   margin: 0;
+  border-radius: 10px;;
 }
 
 .days li {
@@ -306,5 +308,6 @@ body {font-family: Verdana, sans-serif;}
 .days li .active {
   padding: 5px;
   background: #1abc9c;
-  color: #eee !important
+  color: white !important;
+  border-radius: 15px;
 }
