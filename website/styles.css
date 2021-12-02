@@ -190,12 +190,8 @@ body {
   width: 50%;
   height: 50%;
 }
-@media screen and (min-height: 50px) {
-  
-}
 .first-text {
   font-size: 20px;
-  float:left;
 }
 
 .flex-container{
@@ -316,4 +312,17 @@ body {font-family: Verdana, sans-serif;}
   display: flex;
   justify-content: center;
   align-content: center;
+}
+.flex-container3 {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+.staff {
+  width: 525px;
+  height: 700px;
+}
+.staff2 {
+  width: 400px;
+  height: 700px;
 }
