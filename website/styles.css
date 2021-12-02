@@ -306,7 +306,6 @@ body {font-family: Verdana, sans-serif;}
   padding: 5px;
   background: #1abc9c;
   color: white !important;
-  border-radius: 15px;
 }
 .flex-container2 {
   display: flex;
@@ -318,6 +317,10 @@ body {font-family: Verdana, sans-serif;}
   justify-content: flex-start;
   align-self: flex-start;
 }
+.flex-container4 {
+  display: flex;
+  justify-content: space-between;
+}
 .staff {
   width: 525px;
   height: 700px;
@@ -325,4 +328,20 @@ body {font-family: Verdana, sans-serif;}
 .staff2 {
   width: 400px;
   height: 700px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: lightseagreen;
+  opacity: .70;
 }
