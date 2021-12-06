@@ -326,7 +326,6 @@ table {
   width: 75%;
   margin-right: 
 }
-
 td, th {
   border: 1px solid black;
   text-align: left;
@@ -357,4 +356,8 @@ body {
   display: flex;
   justify-content: flex-start;
   flex-shrink: 5;
+}
+.flex-container6 {
+  display: flex;
+  justify-content: center;
 }
