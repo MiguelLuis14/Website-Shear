@@ -357,3 +357,15 @@ body {
   justify-content: flex-start;
   flex-shrink: 5;
 }
+.flex-container6 {
+  display: flex;
+  justify-content: center;
+}
+.mail-phone :hover {
+  color: black;
+}
+.mail-phone {
+  background-color: darkblue;
+  border-radius: 15px;
+  opacity: .70;
+}
