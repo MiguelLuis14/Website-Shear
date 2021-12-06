@@ -8,7 +8,7 @@ ul {
   overflow: hidden;
   background-color: midnightblue;
   opacity: .75;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 20px;
 }
 li {
@@ -99,11 +99,13 @@ justify-content: space-between;
 .homepage-img1 {
   Width: 25%;
   height: 25%;
+  margin-bottom: 10px;
   float: left;
 }
 .homepage-img2 {
   Width: 25%;
   height: 25%;
+  margin-bottom: 10px;
   float: left;
 }
 
@@ -120,8 +122,8 @@ ul {
   overflow: hidden;
   background-color: midnightblue;
   opacity: .75;
-  border-radius: 10px;
-  font-size: 20px;
+  border-radius: 30px;
+  font-size: 15px;
 }
 li {
   float: left;
@@ -321,7 +323,8 @@ body {font-family: Verdana, sans-serif;}
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 175%;
+  width: 75%;
+  margin-right: 
 }
 
 td, th {
@@ -352,6 +355,6 @@ body {
 }
 .flex-container5 {
   display: flex;
-  justify-content: space-between;
-  flex-shrink: 3;
+  justify-content: flex-start;
+  flex-shrink: 5;
 }
