@@ -1,62 +1,5 @@
-ul {
-  list-style-type: none;
-  margin-right: 600px auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  padding: 0;
-  overflow: hidden;
-  background-color: midnightblue;
-  opacity: .75;
-  border-radius: 10px;
-  font-size: 20px;
-}
-li {
-  float: left;
-  color: black;
-}
-a {
-  display:inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: #000080;
-}
-.copyright {
-  text-align: center;
-}
-body {
-  Opacity: 1;
-}
-.font {
-  font-size: 100%;
-  text-align: justify;
-}
-.test{
- position: inline-block;
-  margin: 5px;
-  padding: 5px;
-  height: 50px;
-  width: 50px;
-  transition: all 1.5s
-}
-.test:hover {
-  transform: scale(2) rotate(360deg);  
-}
-.test2 {
-  position: inline-block;
-  margin: 4px;
-  padding:6px;
-  height: 45px;
-  width: 55px;
-  transition: all 1.5s
-}
-.test2:hover {
-  transform: scale(2) rotate(360deg);  
-}
+
+/* This is the logo */
 .logo {
   border-radius: 100px;
   height: 150px;
@@ -69,6 +12,42 @@ body {
 .logo:hover {
   transform: scale(1) rotate(360deg);
 }
+/* /This is the logo */
+
+/* These are the bottom social media links and everythinjg in the footer */
+.copyright {
+  text-align: center;
+}
+.test{
+  position: inline-block;
+   margin: 5px;
+   padding: 5px;
+   height: 50px;
+   width: 50px;
+   transition: all 1.5s
+ }
+ .test:hover {
+   transform: scale(2) rotate(360deg);  
+ }
+ .test2 {
+   position: inline-block;
+   margin: 4px;
+   padding:6px;
+   height: 45px;
+   width: 55px;
+   transition: all 1.5s
+ }
+ .test2:hover {
+   transform: scale(2) rotate(360deg);  
+ }
+/* These are the bottom social media links and everything in the footer*/
+
+
+.font {
+  font-size: 100%;
+  text-align: justify;
+}
+
 .pic {
   border-radius: 150px;
 }
@@ -112,6 +91,7 @@ justify-content: space-between;
 .inline-block {
   position: inline block;
 }
+/* */
 ul {
   list-style-type: none;
   margin-right: auto; 
@@ -360,12 +340,20 @@ body {
 .flex-container6 {
   display: flex;
   justify-content: center;
-}
+  }
 .mail-phone :hover {
-  color: black;
+  color: lightseagreen;
 }
 .mail-phone {
   background-color: darkblue;
   border-radius: 15px;
   opacity: .70;
+}
+.date-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+.first-text1 {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
 }
