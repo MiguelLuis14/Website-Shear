@@ -118,8 +118,7 @@ li a:hover {
 }
 /* This is the navbar */
 
-/* This is the  */
-
+/* This is the logo */
 .logo {
   border-radius: 100px; 
   height: 150px;
@@ -132,6 +131,7 @@ li a:hover {
 .logo:hover {
   transform: scale(1) rotate(360deg); 
 }
+/* /This is the logo */
 .pic {
   border-radius: 150px; 
 }
