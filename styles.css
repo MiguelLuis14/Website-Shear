@@ -75,14 +75,14 @@ justify-content: space-between;
 
 /* This is the images on the index.html */
 .homepage-img1 {
-  Width: 25%;
-  height: 25%;
+  Width: 20%;
+  height: 20%;
   margin-bottom: 10px;
   float: left;
 }
 .homepage-img2 {
-  Width: 25%;
-  height: 25%;
+  Width: 20%;
+  height: 20%;
   margin-bottom: 10px;
   float: left;
 }
@@ -158,15 +158,15 @@ li a:hover {
   border-radius: 10px;
 }
 .homepage-img1 {
-  Width: 560px;
-  height: 560px;
+  Width: 460px;
+  height: 460px;
   margin-right: 50px;
   float: left;
 }
 .homepage-img2 {
-  Width: 560px;
+  Width: 460px;
   margin-right: 50px;
-  height: 560px;
+  height: 460px;
   float: left;
 }
 
